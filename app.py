@@ -1,3 +1,9 @@
+#pip install Flask PyMuPDF werkzeug
+#pip freeze > requirements.txt
+#pip install reportlab
+
+
+
 import os
 from flask import Flask, render_template, request, send_file
 import fitz  # PyMuPDF for PDF text extraction
